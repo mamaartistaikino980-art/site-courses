@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+     <script defer src="./wavesurfer.js"></script>
+    <script defer src="./media.js"></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -53,28 +56,28 @@
                         </p>
                     </div>
 
-                    <div class="audio-holder"   
-                    <div class="audio-block">
-                    <img src="img/man-avatar.png"  alt=""> 
-                    <div class="audio-container">
-                     <div class="audio-detail">
-                        <div class="control">
-                            <i class="fi-rr-play" id="playPause"></i>
+                     
+                    <div class="audio-holder">
+                        <div class="audio-block">
+                            <img src="./img/man-avatar.png" alt="">
+                            <div class="audio-container">
+                                <img src="./img/audio.png" alt="">
+                                <div class="audio-detail">
+                                    <div class="control">
+                                        <i class="fi-rr-play" id="playPause"></i>
+                                    </div>
+                                    <div id="wave"></div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="wawe"></div>
-                     </div>
-                    </div>
-                    </div>
-
-                    <div class="audio-author">
-                     <div>
-                    <h2 class="about-title">Testimonial</h2>
-                    <span class="about-subtitle">Tome Hope</span>
-                     </div>
-
-                     <div class="time">
-                        <span id="current">0:00</span>
-                        <span id="duration">1:52</span>
+                        <div class="audio-author">
+                            <div>
+                                <h2 class="about-title">Testimonial</h2>
+                                <span class="about-subtitle">Tom Hope</span>
+                            </div>
+                            <div class="time">
+                                <span id="current">0:00</span>
+                                <span class="duration">1:52</span>
                      </div>
                     </div>
                     
@@ -148,7 +151,7 @@
                 </section>
             </section>
         </div>
-    <script src="./wavesurfer.js"></script>
-    <script type="module" src="./media.js "></script>
+        </main>
+  
 </body>
 </html>
