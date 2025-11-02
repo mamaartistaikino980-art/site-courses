@@ -1,3 +1,4 @@
+
 duration = document.querySelector("#duration");
 current = document.querySelector("#current");
 playPause = document.querySelector("#playPause");
@@ -25,7 +26,7 @@ wavesurfer.init({
 
 
 
-//загружаем нужную песню
+//загружаем нужную песню//
 wavesurfer.load("sound.mp3");
 
 //play and pause a player
