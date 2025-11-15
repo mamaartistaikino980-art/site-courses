@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 .header{
-background-color: #1a1a1a;
+background-color: navy;
 padding-top: 36px;
 padding-bottom: 200px; 
 }
@@ -215,7 +215,7 @@ padding-bottom: 200px;
 .course-section-title{
     font-weight: 600;
     font-size: 70px;
-    color: #1a1a1a;
+    color:steelblue;
     margin: 60px 0;
 }
 .course-row {
@@ -242,7 +242,7 @@ padding-bottom: 200px;
 }
 .img-card-1 {background-image: url('./img/card-1.png');}
 .btn-time {
-    background-color: #fff;
+    background-color:#fff;
     border-radius: 5px;
     color: #111;
     padding: 6px 12px;
@@ -251,7 +251,7 @@ padding-bottom: 200px;
 }
 .btn-raiting {
     width: 77px;
-    background-color: #111;
+    background-color: midnightblue;
     border-radius: 5px;
     color: #fff;
     padding: 6px 12px;
@@ -270,7 +270,7 @@ padding-bottom: 200px;
     font-size: 35px;
     font-weight: bold;
     letter-spacing: 0.3px;
-    color: #1a1a1a;
+    color: dodgerblue;
     margin-bottom: 20px;
 }
 .course-desc {
@@ -292,7 +292,7 @@ padding-bottom: 200px;
 .course-info-title{
     font-weight: 600;
     font-size: 70px;
-    color: #1a1a1a;
+    color: darkblue;
     padding-bottom: 40px;
 }
 
@@ -325,7 +325,7 @@ padding-bottom: 200px;
    font-weight: 400;
    font-size: 50px;
    letter-spacing: 0.8px;
-   color: #000000;
+   color: blue;
 }
 
 .course-count{
